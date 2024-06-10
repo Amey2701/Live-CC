@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live CC by Amey</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myjs.js" defer></script>
+</head>
+<body>
+    <div class="center-container">
+        <h1>LIVE CC</h1>
+        <form onsubmit="return convert(event)">
+            <input type="number" step="any" placeholder="Enter amount in $ : " id="amt" required>
+            <input type="submit" value="Convert">
+            <button type="button" onclick="clearForm()">Clear</button>
+            <h2 id="msg"></h2>
+        </form>
+    </div>
+</body>
+</html>
